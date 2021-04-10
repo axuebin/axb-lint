@@ -1,0 +1,7 @@
+.*
+!.*ignore
+!.*rc
+!.*rc.js
+!.*rc.json
+
+node_modules/
