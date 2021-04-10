@@ -39,7 +39,7 @@
     "prettier": "^2.2.0"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "lib/**/*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "**/*": "prettier --write --ignore-unknown"
   },
   "husky": {
